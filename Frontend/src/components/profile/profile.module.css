@@ -1,0 +1,36 @@
+.requiredField {
+  color: #ff4136;
+  font-size: 12px;
+  margin-top: 2%;
+}
+.myProfile {
+  font-family: "Montserrat", sans-serif;
+  min-height: 100vh;
+  margin-bottom: 100px;
+}
+.textBox {
+  width: 80%;
+  height: 100%;
+  padding-top: 80px;
+}
+.profileContainer {
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+}
+.saveButton {
+  background-color: #3e4444;
+  border: none;
+}
+.saveButton:hover {
+  background-color: black;
+}
+
+.button {
+  background-color: #3e4444;
+  color: white;
+}
+
+.button:hover {
+  background-color: black;
+}

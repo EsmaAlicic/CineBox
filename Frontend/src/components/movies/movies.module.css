@@ -1,0 +1,32 @@
+.textBox {
+  padding-top: 5%;
+}
+.moviesContainer {
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+}
+.moviesButton {
+  background-color: #3e4444;
+  border: none;
+  color: white;
+  width: 30%;
+}
+.button {
+  background-color: #3e4444;
+  border: none;
+  color: white;
+}
+.moviesButton:hover {
+  background-color: black;
+}
+.requiredField {
+  color: #ff4136;
+  font-size: 12px;
+  margin-top: 2%;
+}
+@media only screen and (max-width: 600px) {
+  .moviesButton {
+    width: 70%;
+  }
+}

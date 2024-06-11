@@ -1,0 +1,90 @@
+.home {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjUiPgo8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSI1IiBmaWxsPSIjZmZmIj48L3JlY3Q+CjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IiNjY2MiPjwvcmVjdD4KPC9zdmc+");
+}
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.descriptionBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.logoBox {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 30px;
+}
+.logoBox img {
+  width: 100%;
+}
+.titleBox {
+  margin-bottom: 20px;
+  color: black;
+}
+.loginBox {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  color: black;
+}
+.loginOpen {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+.registerButton {
+  color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: black;
+  border: none;
+}
+.button {
+  color: white;
+  background-color: black;
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.requiredField {
+  color: #ff4136;
+  font-size: 12px;
+  margin-top: 2%;
+}
+.registerButton:hover,
+.button:hover,
+.loginOpen:hover {
+  background-color: #3e4444;
+  color: #fff;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  .descriptionBox {
+    text-align: center;
+  }
+  .descriptionBox h4 {
+    font-size: 20px;
+  }
+
+  .logoBox {
+    width: 60%;
+    height: 200px;
+    margin-bottom: 30px;
+  }
+
+  .titleBox {
+    width: 80%;
+    margin-bottom: 70px;
+  }
+}

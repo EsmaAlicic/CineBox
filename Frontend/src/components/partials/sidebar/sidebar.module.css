@@ -1,0 +1,39 @@
+.sidebar {
+  width: 350px;
+  background-color: #3e4444;
+}
+.sidebarLineItem {
+  background-color: #3e4444;
+  color: #e6e2d3;
+}
+.sidebarHeader {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.sidebarHeaderTextWrapper {
+  display: flex;
+  flex-direction: column;
+}
+.userName {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #e6e2d3;
+}
+.userEmail {
+  font-size: 15px;
+  margin-top: -15px;
+}
+.sidebarCloseButton {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  outline: none;
+}
+.sidebarText {
+  font-size: 18px;
+}
+.sidebarLink {
+  text-decoration: none;
+}
